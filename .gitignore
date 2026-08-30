@@ -1,0 +1,22 @@
+# dependencies
+**/node_modules/
+
+# env / secrets
+**/.env
+**/.env.local
+
+# corporate cert (machine-specific, not for sharing)
+cert/
+
+# build output
+server/dist/
+client/.next/
+*.tsbuildinfo
+
+# logs
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
