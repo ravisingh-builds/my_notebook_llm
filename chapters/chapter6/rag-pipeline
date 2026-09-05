@@ -1,0 +1,4 @@
+1. split long document into smaller chunks for seach and retrieval
+2. Generate embedding vectors with OpenAI for each chunk
+3. Index chunks in Pinecone for semantic similarity search
+4. Retrieve the most relevant source passages when a user asks a question.
